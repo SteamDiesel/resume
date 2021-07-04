@@ -10,7 +10,11 @@ module.exports = {
       gray: colors.trueGray,
       orange: colors.orange,
     },
-    extend: {},
+    extend: {
+      screens: {
+        'print': {'raw': 'print'},
+      }
+    },
   },
   variants: {
     extend: {},
