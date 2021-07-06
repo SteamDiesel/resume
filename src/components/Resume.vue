@@ -1,5 +1,5 @@
 <template>
-	<div class="p-12 print:p-2 flex w-full tracking-wide">
+	<div class="p-14 print:p-2  flex w-full tracking-wide">
 		<!-- Left Column -->
 		<div class="w-3/4 pr-4">
 			<!-- Header -->
@@ -45,7 +45,7 @@
 						{{ name }}
 					</h1>
 					<h2 class="text-xl font-bold text-orange-600">
-						{{ profession }}
+						{{ position }}
 					</h2>
 					<div class="flex text-gray-500 text-sm mt-1">
 						<svg class="h-4 pr-2" viewBox="0 0 384 512">
@@ -63,7 +63,7 @@
 				<h2 class="text-lg font-bold text-orange-600">
 					Profile
 				</h2>
-				<div class="border-l-2 pl-5 text-sm">
+				<div class="border-l-2 pl-8 text-sm">
 					<div
 						v-for="(line, index) in profile"
 						:key="index"
@@ -74,24 +74,24 @@
 				</div>
 			</div>
 			<!-- Experience -->
-			<div class="pt-10">
+			<div class="pt-10 pr-4">
 				<h2 class="text-lg font-bold text-orange-600">
 					Experience
 				</h2>
-				<div class="border-l-2 pl-4">
+				<div class="border-l-2 pl-8">
 					<div
 						v-for="(item, index) in experience"
 						:key="index"
-						class="py-2"
+						class="pt-4"
 					>
 						<h3 class="text-md font-semibold text-gray-600">
 							{{ item.career }} [{{ item.tenure }}]
 						</h3>
-						<div class="border-l-2 pl-4">
+						<div class="border-l-2 pl-8">
 							<div
 								v-for="(role, index) in item.roles"
 								:key="index"
-								class="mb-3"
+								class="pt-2"
 							>
 								<h4
 									class="text-md font-semibold text-orange-600"
@@ -107,7 +107,7 @@
 								<p
 									v-for="(line, index) in role.description"
 									:key="index"
-									class="text-xs"
+									class="text-xs mb-1"
 								>
 									{{ line }}
 								</p>
@@ -161,14 +161,16 @@
 
 <script>
 	export default {
+		props: {
+			name: String,
+			position: String,
+		},
 		data() {
 			return {
-				name: "Jason Law",
-				profession: "Real Estate Sales Agent",
 				location: "North Lakes, Queensland, Australia",
 				profile: [
 					"Sales experience - 16 years in various roles and industries",
-					"Keen interest in developing further negotiation skills",
+					"Seeking opportunities to develop advanced negotiation skills",
 					"High integrity sales ethos assuming ownership of client outcomes",
 					"Able to perform under considerable time and target pressure",
 					"Fun, friendly and enthusiastic with a team building attitude",

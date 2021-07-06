@@ -9,6 +9,7 @@ module.exports = {
       current: 'currentColor',
       gray: colors.trueGray,
       orange: colors.orange,
+      blue: colors.blue,
     },
     extend: {
       screens: {

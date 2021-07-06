@@ -1,0 +1,90 @@
+<template>
+	<div class="p-14 print:p-2 w-full tracking-wide break-after">
+		<!-- Header -->
+		<div class="pt-4 flex w-full justify-between">
+			<div class="">
+				<h1 class="text-3xl font-bold text-gray-600 mt-3">
+					{{ name }}
+				</h1>
+				<div class="border-l-2 h-full"></div>
+			</div>
+			<div class="w-28">
+				<svg viewBox="-13 0 511 512">
+					<path
+						d="m328.554688 480.546875c0 17.371094-14.082032 31.453125-31.453126 31.453125-17.371093 0-31.453124-14.082031-31.453124-31.453125s14.082031-31.453125 31.453124-31.453125c17.371094 0 31.453126 14.082031 31.453126 31.453125zm0 0"
+						fill="#f6ad55"
+					/>
+					<path
+						d="m328.554688 480.546875c0 17.371094-14.082032 31.453125-31.453126 31.453125 0-31.453125 0-39.601562 0-62.90625 17.371094 0 31.453126 14.082031 31.453126 31.453125zm0 0"
+						fill="#dd6b20"
+					/>
+					<path
+						d="m63.40625 399.25c0 17.371094-14.082031 31.453125-31.453125 31.453125s-31.453125-14.082031-31.453125-31.453125 14.082031-31.453125 31.453125-31.453125 31.453125 14.082031 31.453125 31.453125zm0 0"
+						fill="#f6ad55"
+					/>
+					<path
+						d="m63.40625 399.25c0 17.371094-14.082031 31.453125-31.453125 31.453125 0-31.453125 0-46.808594 0-62.90625 17.371094 0 31.453125 14.082031 31.453125 31.453125zm0 0"
+						fill="#dd6b20"
+					/>
+					<path
+						d="m485.210938 375.335938c0 17.367187-14.082032 31.449218-31.453126 31.449218-17.371093 0-31.453124-14.082031-31.453124-31.449218 0-17.371094 14.082031-31.453126 31.453124-31.453126 17.371094 0 31.453126 14.082032 31.453126 31.453126zm0 0"
+						fill="#f6ad55"
+					/>
+					<path
+						d="m485.210938 375.335938c0 17.367187-14.082032 31.449218-31.453126 31.449218 0-31.449218 0-38.988281 0-62.902344 17.371094 0 31.453126 14.082032 31.453126 31.453126zm0 0"
+						fill="#dd6b20"
+					/>
+					<path
+						d="m432.203125 85.230469c0-24.320313-19.714844-44.035157-44.035156-44.035157-16.214844 0-30.375 8.773438-38.015625 21.824219-12.617188-5.425781-26.515625-8.4375-41.121094-8.4375-13.710938 0-26.804688 2.65625-38.792969 7.46875-16.183593-36.546875-52.761719-62.050781-95.304687-62.050781-57.539063 0-104.183594 46.644531-104.183594 104.183594 0 25.871094 9.4375 49.539062 25.050781 67.757812-15.613281 18.214844-25.050781 41.882813-25.050781 67.757813 0 45.878906 29.65625 84.832031 70.847656 98.734375v131.910156c0 15.476562 12.546875 28.023438 28.023438 28.023438 15.480468 0 28.027344-12.546876 28.027344-28.023438v-128.957031c40.730468-9.0625 72.488281-41.957031 79.847656-83.300781 9.949218 3.152343 20.542968 4.863281 31.535156 4.863281 2.746094 0 5.46875-.109375 8.164062-.316407v91.722657c0 15.476562 12.546876 28.023437 28.023438 28.023437 15.480469 0 28.027344-12.546875 28.027344-28.023437v-113.546875c24.332031-19.070313 39.96875-48.730469 39.96875-82.042969 0-11.902344-2-23.332031-5.675782-33.988281 14.605469-7.167969 24.664063-22.179688 24.664063-39.546875zm0 0"
+						fill="#f6ad55"
+					/>
+					<path
+						d="m432.203125 85.230469c0-24.320313-19.714844-44.035157-44.035156-44.035157-16.214844 0-30.375 8.773438-38.015625 21.824219-12.617188-5.425781-26.515625-8.4375-41.121094-8.4375-13.710938 0-26.804688 2.65625-38.792969 7.46875-6.308593-14.246093-15.730469-26.804687-27.382812-36.839843v293.457031c17.785156-15.308594 30.355469-36.507813 34.640625-60.582031 9.949218 3.152343 20.542968 4.863281 31.535156 4.863281 2.746094 0 5.46875-.109375 8.164062-.316407v91.722657c0 15.476562 12.546876 28.023437 28.023438 28.023437 15.480469 0 28.027344-12.546875 28.027344-28.023437v-113.546875c24.332031-19.070313 39.96875-48.730469 39.96875-82.042969 0-11.902344-2-23.332031-5.675782-33.988281 14.605469-7.167969 24.664063-22.179688 24.664063-39.546875zm0 0"
+						fill="#dd6b20"
+					/>
+				</svg>
+			</div>
+		</div>
+		<!-- letter -->
+		<div class="border-l-2 p-16 h-full w-full">
+			<div class="">
+				<slot name="position"></slot>
+
+				<slot name="employer"></slot>
+
+				<slot name="body"></slot>
+			</div>
+		</div>
+		<div class="-h-28 w-full"></div>
+	</div>
+</template>
+
+<script>
+	export default {
+		props: {
+			name: String,
+			position: String,
+			coverbody: String,
+		},
+		data() {
+			return {
+				test: "owner",
+				body: [
+					"Sales experience - 16 years in various roles and industries",
+					"Keen interest in developing further negotiation skills",
+					"High integrity sales ethos assuming ownership of client outcomes",
+					"Able to perform under considerable time and target pressure",
+					"Fun, friendly and enthusiastic with a team building attitude",
+					"Very strong record-keeping habits for client notes within CRM",
+					"Clear and effective communicator by all mediums with an excellent phone manner",
+					"Bonus skills as a full-stack web developer",
+					"Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsa inventore magni quae modi perspiciatis aperiam fugiat quaerat quibusdam suscipit repellendus nesciunt in eveniet id?",
+					"Cumque odio explicabo commodi ratione enim, ipsa inventore magni quae modi perspiciatis aperiam fugiat quaerat quibusdam suscipit repellendus nesciunt in eveniet id?",
+					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio explicabo commodi ratione enim, ipsa inventore magni quae modi perspiciatis aperiam fugiat quaerat quibusdam suscipit repellendus nesciunt in eveniet id?",
+				],
+			};
+		},
+	};
+</script>
+
+<style></style>
