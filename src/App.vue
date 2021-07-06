@@ -1,10 +1,6 @@
 <template>
 	<div id="app">
 		<div class="print:hidden flex flex-col p-14">
-			<div>
-				<span v-if="saved">Saved</span>
-				<span v-if="!saved">Unsaved Changes</span>
-			</div>
 			<select
 				v-model="application"
 				class="form-input text-center border-2 bg-gray-100"
@@ -20,7 +16,7 @@
 			</select>
 
 			<button
-				class="bg-blue-300 border border-blue-400 rounded-sm w-32"
+				class="bg-blue-300 border border-blue-400 rounded-sm w-32 mt-2"
 				@click.prevent="newApp"
 			>
 				new
@@ -84,15 +80,14 @@
 				application: {},
 				applications: [
 					{
-						employer: "Total Property Group",
-						position: "Real Estate Sales Agent",
-						coverbody: "TPG \n this is the markup second line",
+						employer: "Blank Employer 1",
+						position: "Position",
+						coverbody: "Dear... \n \n\nSincerely,\n\n",
 					},
 					{
-						employer: "Repco Auto Spares",
-						position: "Parts Interpreter",
-						coverbody:
-							"Repco \n this is the secomd line for repco.",
+						employer: "Blank Employer 2",
+						position: "Position",
+						coverbody: "Dear... \n \n\nSincerely,\n\n",
 					},
 				],
 			};
@@ -102,7 +97,7 @@
 				var app = {
 					employer: "Employer",
 					position: "Position",
-					coverbody: "Dear... \n\n\nSincerely, \n\nJason Law",
+					coverbody: "Dear... \n\n\nSincerely, \n\n",
 				};
 				this.applications.push(app);
 
