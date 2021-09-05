@@ -72,15 +72,6 @@
 				body: [
 					"Sales experience - 16 years in various roles and industries",
 					"Keen interest in developing further negotiation skills",
-					"High integrity sales ethos assuming ownership of client outcomes",
-					"Able to perform under considerable time and target pressure",
-					"Fun, friendly and enthusiastic with a team building attitude",
-					"Very strong record-keeping habits for client notes within CRM",
-					"Clear and effective communicator by all mediums with an excellent phone manner",
-					"Bonus skills as a full-stack web developer",
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. ipsa inventore magni quae modi perspiciatis aperiam fugiat quaerat quibusdam suscipit repellendus nesciunt in eveniet id?",
-					"Cumque odio explicabo commodi ratione enim, ipsa inventore magni quae modi perspiciatis aperiam fugiat quaerat quibusdam suscipit repellendus nesciunt in eveniet id?",
-					"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odio explicabo commodi ratione enim, ipsa inventore magni quae modi perspiciatis aperiam fugiat quaerat quibusdam suscipit repellendus nesciunt in eveniet id?",
 				],
 			};
 		},
