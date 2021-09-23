@@ -10,6 +10,7 @@ module.exports = {
       gray: colors.trueGray,
       orange: colors.orange,
       blue: colors.blue,
+      indigo: colors.indigo,
     },
     extend: {
       screens: {
