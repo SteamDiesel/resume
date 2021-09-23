@@ -1,5 +1,9 @@
 <template>
 	<div id="app">
+		<div>
+			<!-- <KanBan /> -->
+		</div>
+
 		<div class="print:hidden flex flex-col p-14">
 			<select
 				v-model="application"
@@ -65,12 +69,16 @@
 <script>
 	import Cover from "./components/Cover.vue";
 	import Resume from "./components/Resume.vue";
+	// import HelloWorld from "./components/HelloWorld.vue";
+	import KanBan from "./components/KanBan.vue";
 
 	export default {
 		name: "App",
 		components: {
 			Cover,
 			Resume,
+			// HelloWorld,
+			KanBan,
 		},
 		data() {
 			return {
@@ -122,9 +130,9 @@
 					this.applications = JSON.parse(
 						localStorage.getItem("applications")
 					);
-					window.console.log(
-						"Retrieved Applications data from local storage."
-					);
+					// window.console.log(
+					// 	"Retrieved Applications data from local storage."
+					// );
 				} catch {
 					window.console.log(
 						"Unable to retrieve Applications data from local storage."
