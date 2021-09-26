@@ -1,8 +1,6 @@
 <template>
 	<div id="app">
-		<div>
-			<!-- <KanBan /> -->
-		</div>
+		<!-- <KanBan /> -->
 
 		<div class="print:hidden flex flex-col p-14">
 			<select
@@ -12,7 +10,7 @@
 				<!-- inline object literal -->
 				<option
 					v-for="(app, index) in applications"
-					:value="app"
+					:value="index"
 					:key="index"
 					:id="index"
 					>{{ app.employer }}</option
@@ -34,8 +32,8 @@
 					type="text"
 					name=""
 					id="applicationposition"
-					v-model="application.position"
-					@keyup="saveApps"
+					v-model="selected_app.position"
+					@change="saveApps"
 				/>
 			</template>
 			<template v-slot:employer>
@@ -44,15 +42,15 @@
 					type="text"
 					name=""
 					id="applicationemployer"
-					v-model="application.employer"
-					@keyup="saveApps"
+					v-model="selected_app.employer"
+					@change="saveApps"
 				/>
 			</template>
 			<template v-slot:body>
 				<div>
 					<textarea
-						v-model="application.coverbody"
-						@keyup="saveApps"
+						v-model="selected_app.coverbody"
+						@change="saveApps"
 						name=""
 						id="coverbodyfield"
 						rows="35"
@@ -62,7 +60,7 @@
 			</template>
 		</Cover>
 
-		<Resume :name="name" :position="application.position" />
+		<Resume :name="name" :position="selected_app.position" />
 	</div>
 </template>
 
@@ -70,7 +68,7 @@
 	import Cover from "./components/Cover.vue";
 	import Resume from "./components/Resume.vue";
 	// import HelloWorld from "./components/HelloWorld.vue";
-	import KanBan from "./components/KanBan.vue";
+	// import KanBan from "./components/KanBan.vue";
 
 	export default {
 		name: "App",
@@ -78,14 +76,14 @@
 			Cover,
 			Resume,
 			// HelloWorld,
-			KanBan,
+			// KanBan,
 		},
 		data() {
 			return {
 				saved: true,
 				edit: true,
 				name: "Jason Law",
-				application: {},
+				application: 0,
 				applications: [
 					{
 						employer: "Blank Employer 1",
@@ -100,6 +98,11 @@
 				],
 			};
 		},
+		computed: {
+			selected_app() {
+				return this.applications[this.application];
+			},
+		},
 		methods: {
 			newApp() {
 				var app = {
@@ -107,7 +110,7 @@
 					position: "Position",
 					coverbody: "Dear... \n\n\nSincerely, \n\n",
 				};
-				this.applications.push(app);
+				this.applications.splice(0, 0, app);
 
 				this.application = app;
 			},
@@ -126,17 +129,19 @@
 				}
 			},
 			initialize() {
-				try {
-					this.applications = JSON.parse(
-						localStorage.getItem("applications")
-					);
-					// window.console.log(
-					// 	"Retrieved Applications data from local storage."
-					// );
-				} catch {
-					window.console.log(
-						"Unable to retrieve Applications data from local storage."
-					);
+				if (localStorage.getItem("applications")) {
+					try {
+						this.applications = JSON.parse(
+							localStorage.getItem("applications")
+						);
+						// window.console.log(
+						// 	"Retrieved Applications data from local storage."
+						// );
+					} catch {
+						window.console.log(
+							"Unable to retrieve Applications data from local storage."
+						);
+					}
 				}
 			},
 		},
