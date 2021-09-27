@@ -258,13 +258,13 @@
 								employer: "FPW Group",
 								from: "February 2021",
 								to: "Present",
-								tenure: "7m",
+								tenure: "8m",
 								description: [
 									"Finance Property Wealth Group consists primarily of a mortgage brokerage and investment property sales, my role is onboarding clients and managing their expectations and progress through our business.",
 									"My Role involves helping clients accomplish financial objectives by assessing their financial situation, developing and presenting financial strategies and plans, and monitoring changes in financial status and life circumstances. ",
 									"My client appointments are set by our telemarketing team and indicate that the prospect has an interest in refinancing their mortgage or buying some Investment Property. This means that the marketing agent is also interested in the outcome of the meeting with their prospect, so I keep them in the loop with progress and feedback.",
 									"For the majority of appointments, I visit clients in their home to introduce our business and set expectations.",
-									"The goal of my initial meeting with clients is to clearly articulate the value of our business to prospective investors while getting to know the client personally.",
+									"The goal of my initial meeting with clients is to clearly articulate the value of our business to prospective investors while getting to know the client's personal & financial situation.",
 									"When a client proceeds to buy an investment property with us, it is my responsibility to maintain momentum and engagement with the client from finance, property selection, settlement and completion.",
 									"My goal is to get referrals to the client's family and friends at every stage of the process so that we can grow my client base.",
 								],
@@ -292,14 +292,30 @@
 						tenure: "3 years",
 						roles: [
 							{
+								position:
+									"Business Development Manager & Web Developer",
+								employer:
+									"Broker & Dealer Finance & Insurance (BDFI)",
+								from: "February 2020",
+								to: "Present",
+								tenure: "1y8m",
+								description: [
+									"After my exposure to the challenges of working in motor trade finance, I created a custom CRM system for Dealership Business Managers and Finance Brokers.",
+									"This CRM includes lead & application management, task management and point of sale tools that dramatically improve the speed and efficiency of operations within an asset finance pipeline.",
+									"As the sole developer and sales rep for this early-stage SAAS start-up, I am responsible for both product development and customer acquisition. I've performed market research and testing with my fellow industry contacts to gather feedback and improve the product-market-fit.",
+									"The BDFI application has been built in my spare time and is close to a 'minimum viable product' which I can take to market for broader testing and feedback.",
+									"The development of BDFI has been a passion project, which I've used to improve my own coding skills. So, while I have some expectation that BDFI could produce revenue, I intend to sell the project when it is established in the market.",
+								],
+							},
+							{
 								position: "Full Stack Web Developer",
-								employer: "Various projects",
+								employer: "Sole Trader",
 								from: "January 2018",
 								to: "Present",
 								tenure: "3y",
 								description: [
 									"I've built various projects for work and enjoyment. This resume is built as a web application, for example.",
-									"I am most proud of the Finance Brokerage CRM that I built as a VueJS single page application with a Laravel API for access control, database queries and business logic.",
+									"I am most proud of the memorial site I built for kingkai.org, which I built as a VueJS single page application with a Laravel API for access control, database queries and business logic.",
 									"I have found it quick and easy to spin up small javascript projects to make custom tools and toolboxes for work that are extremely powerful and flexible.",
 								],
 							},
