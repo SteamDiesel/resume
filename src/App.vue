@@ -112,7 +112,7 @@
 				};
 				this.applications.splice(0, 0, app);
 
-				this.application = app;
+				this.application = 0;
 			},
 			saveApps() {
 				try {

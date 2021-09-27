@@ -82,7 +82,7 @@
 					<div
 						v-for="(item, index) in experience"
 						:key="index"
-						class="pt-4"
+						class="pt-4 mb-8"
 					>
 						<h3 class="text-md font-semibold text-gray-600">
 							{{ item.career }} [{{ item.tenure }}]
@@ -91,7 +91,7 @@
 							<div
 								v-for="(role, index) in item.roles"
 								:key="index"
-								class="pt-2"
+								class="pt-2 no-break"
 							>
 								<h4
 									class="text-md font-semibold text-orange-600"
@@ -129,7 +129,14 @@
 						:key="index"
 						class="text-sm mb-2"
 					>
-						{{ item.line }}
+						<a
+							v-if="item.url"
+							target="blank"
+							:href="item.type + item.url"
+							>{{ item.line }}</a
+						>
+
+						<span v-if="!item.url">{{ item.line }}</span>
 					</div>
 				</div>
 				<div v-for="(item, index) in lists" :key="index" class="mb-10">
@@ -183,26 +190,32 @@
 					{
 						line: "Australian Citizen, M, 36",
 						url: "",
+						type: "",
 					},
 					{
 						line: "",
 						url: "",
+						type: "",
 					},
 					{
 						line: "0400 696 332",
-						url: "tel:0400696332",
+						url: "0400696332",
+						type: "tel:",
 					},
 					{
 						line: "jason.lloyd.law@gmail.com",
-						url: "mailto:jason.lloyd.law@gmail.com",
+						url: "jason.lloyd.law@gmail.com",
+						type: "mailto:",
 					},
 					{
 						line: "github.com/SteamDiesel",
-						url: "https//github.com/SteamDiesel",
+						url: "github.com/SteamDiesel",
+						type: "https://",
 					},
 					{
 						line: "linkedin.com/in/jason-lloyd-law",
-						url: "https//linkedin.com/in/jason-lloyd-law",
+						url: "linkedin.com/in/jason-lloyd-law",
+						type: "https://",
 					},
 				],
 				lists: [
@@ -282,7 +295,8 @@
 									"I created entire sales scripts, tools and automation to streamline and improve the efficiency of lead outreach.",
 									"I researched land and put together several deals with clients for House and Land packages.",
 									"I made significant contributions to the development and operations of the website and other digital infrastructure for the business.",
-									"I scripted, shot and edited video advertisements which were used to promote the business and offerings.",
+									"I scripted, shot and edited video advertisements which were used to promote the business and offerings. ",
+									" ",
 								],
 							},
 						],
@@ -454,4 +468,8 @@
 	};
 </script>
 
-<style></style>
+<style>
+	.no-break {
+		page-break-inside: avoid;
+	}
+</style>
