@@ -100,6 +100,7 @@
 		},
 		computed: {
 			selected_app() {
+				window.console.log("An application was selected.");
 				return this.applications[this.application];
 			},
 		},
@@ -108,10 +109,12 @@
 				var app = {
 					employer: "Employer",
 					position: "Position",
-					coverbody: "Dear... \n\n\nSincerely, \n\n",
+					coverbody: "Dear...\n\n\nSincerely,\n\nJason Law",
 				};
+				window.console.log("Adding a new application to the pile...");
+				window.console.log(app);
+				window.console.log(this.applications);
 				this.applications.splice(0, 0, app);
-
 				this.application = 0;
 			},
 			saveApps() {
@@ -130,18 +133,25 @@
 			},
 			initialize() {
 				if (localStorage.getItem("applications")) {
+					window.console.log("Applications found on local storage.");
 					try {
 						this.applications = JSON.parse(
 							localStorage.getItem("applications")
 						);
-						// window.console.log(
-						// 	"Retrieved Applications data from local storage."
-						// );
+						window.console.log(
+							"Retrieved Applications data from local storage."
+						);
+						window.console.log(this.applications);
 					} catch {
 						window.console.log(
 							"Unable to retrieve Applications data from local storage."
 						);
 					}
+				} else {
+					window.console.log(
+						"No locally stored applications were found."
+					);
+					window.console.log(this.applications);
 				}
 			},
 		},
