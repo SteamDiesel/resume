@@ -263,25 +263,43 @@
 				],
 				experience: [
 					{
-						career: "Real Estate Sales",
-						tenure: "1 year",
+						career: "Sales Executive / Representative",
+						tenure: "7y",
 						roles: [
+							{
+								position: "Business Development Manager",
+								employer: "National Property Group",
+								from: "November 2021",
+								to: "Present",
+								tenure: "3m",
+								description: [
+									"Developing a detailed understanding of the NPD business, customers, relationships and products",
+									"Proactively and constantly find and close opportunities, cold call prospects via telephone and personal selling and follow-up on prospective leads",
+									"Source and maintain accurate contact information and distribution lists",
+									"Maintain a thorough understanding of assigned territory and National Property Data Limited's market positioning",
+									"Negotiate and close deals and manage sales pipeline",
+									"Prepare and run onsite demonstrations",
+									"Assist with area meetings and demonstrations",
+									"Maintain an expert's understanding of all National Property Data Limited's products and services",
+									"Perform daily maintenance and updates of the CRM system",
+								],
+							},
 							{
 								position: "Investment Property Consultant",
 								employer: "FPW Group",
 								from: "February 2021",
-								to: "Present",
+								to: "October 2021",
 								tenure: "8m",
 								description: [
-									"Finance Property Wealth Group consists primarily of a mortgage brokerage and investment property sales, my role is onboarding clients and managing their expectations and progress through our business.",
-									"My Role involves helping clients accomplish financial objectives by assessing their financial situation, developing and presenting financial strategies and plans, and monitoring changes in financial status and life circumstances. ",
-									"My client appointments are set by our telemarketing team and indicate that the prospect has an interest in refinancing their mortgage or buying some Investment Property. This means that the marketing agent is also interested in the outcome of the meeting with their prospect, so I keep them in the loop with progress and feedback.",
-									"For the majority of appointments, I visit clients in their home to introduce our business and set expectations.",
-									"The goal of my initial meeting with clients is to clearly articulate the value of our business to prospective investors while getting to know the client's personal & financial situation.",
-									"When a client proceeds to buy an investment property with us, it is my responsibility to maintain momentum and engagement with the client from finance, property selection, settlement and completion.",
-									"My goal is to get referrals to the client's family and friends at every stage of the process so that we can grow my client base.",
+									"Finance Property Wealth Group consists primarily of a mortgage brokerage and investment property sales, my role was onboarding clients and managing their expectations and progress through our business.",
+									"My Role involved helping clients accomplish financial objectives by assessing their financial situation, developing and presenting financial strategies and plans, and monitoring changes in financial status and life circumstances. ",
+									"My client appointments were set by our telemarketing team and indicate that the prospect has an interest in refinancing their mortgage or buying some Investment Property. This meant that the marketing agent was also interested in the outcome of the meeting with their prospect, so I kept them informed with progress and feedback.",
+									"For the majority of appointments, I would visit clients in their home to introduce our business and set expectations.",
+									"The goal of my initial meeting with clients was to clearly articulate the value of our business to prospective investors while getting to know the client's personal & financial situation.",
+									"When a client proceeds to buy an investment property with us, it was my responsibility to maintain momentum and engagement with the client from finance, property selection, settlement and completion.",
 								],
 							},
+
 							{
 								position: "Property Sales Consultant",
 								employer: "Webster's Property Partners",
@@ -297,6 +315,58 @@
 									"I made significant contributions to the development and operations of the website and other digital infrastructure for the business.",
 									"I scripted, shot and edited video advertisements which were used to promote the business and offerings. ",
 									" ",
+								],
+							},
+							{
+								position:
+									"Sales & Finance - Locum Business Manager",
+								employer: "Sole Trader",
+								from: "September 2013",
+								to: "January 2019",
+								tenure: "4y5m",
+								description: [
+									"As a locum BM, I kept my calendar booked up by ensuring I maintained regular contact with all of my contacts within the motor trade in the greater Brisbane region.",
+									"Within the dealerships, my role is to Sell the dealership's finance and insurance options. While at a higher level my role as a sole trader was to ensure I was keeping my calendar consistently booked.",
+									"During my time as a Locum BM, I have worked in nearly 100 different car dealerships on the east coast of Australia.",
+									"My time as a sole trader and finance closer within various dealerships has substantially improved my sales and business acumen.",
+									"I positioned myself as 'the guy to call if you need a locum' by ensuring that I knew and collaborated with other locums. If a dealership called me and I was unable to work their booking, I would call my network and find a locum to do the job.",
+								],
+							},
+							{
+								position: "Sales & Finance - Finance Broker",
+								employer: "Sole Trader",
+								from: "September 2014",
+								to: "January 2019",
+								tenure: "3y5m",
+								description: [
+									"As a Finance Broker, I assisted my clients to secure approvals for loans on vehicles and equipment.",
+									"A finance client is a buyer like any other, motivated by cost and convenience. My ability to make income depends heavily on my ability to built trust and rapport while also maintaining a high level of service and control over the sale.",
+									"As a sole trader, I relied on my own lead generation and prospecting as well as building and strengthening referral relationships.",
+								],
+							},
+							{
+								position: "Business Development Manager",
+								employer: "AEncompas",
+								from: "July 2010",
+								to: "July 2011",
+								tenure: "12m",
+								description: [
+									"Start up telco business reselling Telstra, Optus, Vodafone and various other business phone plans for commission.",
+									"Role involved typical sales rep duties of prospecting via cold calling and canvassing businesses in person.",
+									"",
+								],
+							},
+							{
+								position: "Outbound B2B Lead Generation",
+								employer: "3 Mobile - Call Centre",
+								from: "February 2009",
+								to: "October 2009",
+								tenure: "8m",
+								description: [
+									"This role was in a new and experimental lead generation team started with me and some other high performing sales agents from various departments.",
+									"The Lead-Gen team was responsible for calling cold business data and setting appointments for our Business Sales team to visit and convert accounts.",
+									"This was my first outbound role, but I quickly adapted to the call volume and built personal resilience against the high rejection nature of outbound sales.",
+									"This team was disbanded when the Vodafone takeover was announced and I returned to my previous Inbound Sales role.",
 								],
 							},
 						],
@@ -352,33 +422,7 @@
 									"I Maintained relationships and contact with referral-partner business managers on a regular basis and took credit applications from their clients. Also made myself available as a Locum Business Manager for the group of Dealerships over the Christmas and New Year season to demonstrate our company's commitment to their success.",
 								],
 							},
-							{
-								position:
-									"Sales & Finance - Locum Business Manager",
-								employer: "Sole Trader",
-								from: "September 2013",
-								to: "January 2019",
-								tenure: "4y5m",
-								description: [
-									"As a locum BM, I kept my calendar booked up by ensuring I maintained regular contact with all of my contacts within the motor trade in the greater Brisbane region.",
-									"Within the dealerships, my role is to Sell the dealership's finance and insurance options. While at a higher level my role as a sole trader was to ensure I was keeping my calendar consistently booked.",
-									"During my time as a Locum BM, I have worked in nearly 100 different car dealerships on the east coast of Australia.",
-									"My time as a sole trader and finance closer within various dealerships has substantially improved my sales and business acumen.",
-									"I positioned myself as 'the guy to call if you need a locum' by ensuring that I knew and collaborated with other locums. If a dealership called me and I was unable to work their booking, I would call my network and find a locum to do the job.",
-								],
-							},
-							{
-								position: "Sales & Finance - Finance Broker",
-								employer: "Sole Trader",
-								from: "September 2014",
-								to: "January 2019",
-								tenure: "3y5m",
-								description: [
-									"As a Finance Broker, I assisted my clients to secure approvals for loans on vehicles and equipment.",
-									"A finance client is a buyer like any other, motivated by cost and convenience. My ability to make income depends heavily on my ability to built trust and rapport while also maintaining a high level of service and control over the sale.",
-									"As a sole trader, I relied on my own lead generation and prospecting as well as building and strengthening referral relationships.",
-								],
-							},
+
 							{
 								position:
 									"Sales & Finance - Cadet Locum Business Manager",
@@ -409,19 +453,7 @@
 									"We were responsible for ensuring that we solved the client's problem while on the client's call, with the ability to make outbound calls and follow up to ensure follow through on our promises to clients.",
 								],
 							},
-							{
-								position: "Outbound B2B Lead Generation",
-								employer: "3 Mobile - Call Centre",
-								from: "February 2009",
-								to: "October 2009",
-								tenure: "8m",
-								description: [
-									"This role was in a new and experimental lead generation team started with me and some other high performing sales agents from various departments.",
-									"The Lead-Gen team was responsible for calling cold business data and setting appointments for our Business Sales team to visit and convert accounts.",
-									"This was my first outbound role, but I quickly adapted to the call volume and built personal resilience against the high rejection nature of outbound sales.",
-									"This team was disbanded when the Vodafone takeover was announced and I returned to my previous Inbound Sales role.",
-								],
-							},
+
 							{
 								position: "Inbound Sales",
 								employer: "3 Mobile - Call Centre",
