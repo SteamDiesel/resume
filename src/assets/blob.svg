@@ -1,17 +1,4 @@
-<template>
-	<div
-		class="p-14 print:p-2 w-full tracking-wide break-after hidden sm:block"
-	>
-		<!-- Header -->
-		<div class="pt-4 flex w-full justify-between">
-			<div class="">
-				<h1 class="text-3xl font-bold text-gray-600 mt-3">
-					{{ name }}
-				</h1>
-				<div class="border-l-2 h-full"></div>
-			</div>
-			<div class="w-28">
-				<svg viewBox="-13 0 511 512">
+<svg viewBox="-13 0 511 512">
 					<path
 						d="m328.554688 480.546875c0 17.371094-14.082032 31.453125-31.453126 31.453125-17.371093 0-31.453124-14.082031-31.453124-31.453125s14.082031-31.453125 31.453124-31.453125c17.371094 0 31.453126 14.082031 31.453126 31.453125zm0 0"
 						fill="#f6ad55"
@@ -45,39 +32,3 @@
 						fill="#dd6b20"
 					/>
 				</svg>
-			</div>
-		</div>
-		<!-- letter -->
-		<div class="border-l-2 p-16 h-full w-full">
-			<div class="">
-				<slot name="position"></slot>
-
-				<slot name="employer"></slot>
-
-				<slot name="body"></slot>
-			</div>
-		</div>
-		<div class="-h-28 w-full"></div>
-	</div>
-</template>
-
-<script>
-export default {
-	props: {
-		name: String,
-		position: String,
-		coverbody: String,
-	},
-	data() {
-		return {
-			test: "owner",
-			body: [
-				"Sales experience - 16 years in various roles and industries",
-				"Keen interest in developing further negotiation skills",
-			],
-		};
-	},
-};
-</script>
-
-<style></style>
