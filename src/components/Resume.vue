@@ -181,15 +181,15 @@ export default {
 		return {
 			location: "North Lakes, Queensland, Australia",
 			profile: [
+				"Full Stack Web Developer - 4 years self studied as I build multiple solo projects",
+				"Technical founder of Garaji.me & BDFI",
+				"Current Product Manager of Admin Dashboard for internal use at OurProperty",
 				"Sales experience - 17 years in various roles and industries",
-				"Seeking opportunities to develop advanced negotiation skills",
-				"High integrity sales ethos assuming ownership of client outcomes",
+				"Scrappy and willing to do all tasks in a team to achieve business goals",
 				"Able to perform under considerable time and target pressure",
 				"Fun, friendly and enthusiastic with a team building attitude",
 				"Very strong record-keeping habits for client notes within CRM",
 				"Clear and effective communicator by all mediums with an excellent phone manner",
-				"Open QLD drivers licence with a clean driving record",
-				"Bonus skills as a full-stack web developer",
 			],
 			details: [
 				{
