@@ -227,12 +227,10 @@ export default {
 				{
 					title: "Valued Skills",
 					content: [
-						"Sales",
 						"Negotiation",
-						"Prospecting",
 						"Lead Management",
-						"Client Management",
 						"Web Development",
+						"Product Management",
 					],
 				},
 				{
@@ -260,6 +258,7 @@ export default {
 						"Laravel",
 						"PHP",
 						"VueJS",
+						"inertiajs",
 						"Javascript",
 						"Tailwind CSS",
 						"MySQL",
@@ -267,6 +266,65 @@ export default {
 				},
 			],
 			experience: [
+				{
+					career: "Full Stack Web Developer",
+					tenure: "4 years",
+					roles: [
+						{
+							position: "Technical Founder / Product Manager",
+							employer: "Garaji.me",
+							from: "March 2022",
+							to: "Present",
+							tenure: "4m",
+							description: [
+								"Garaji.me is a complex and ambitious project to catalogue all vehicle information and provide users with a place to manage their cars history and maintenance.",
+								"I am the sole web developer on this project, responsible for all decisions. I am responsible for UI and UX, design and layout and technical implementation decisions.",
+								"Laravel with inertiajs, using laravel nova as the dashboard. Tailwind CSS and using the Tailwind UI component library.",
+							],
+						},
+						{
+							position: "Product Manager",
+							employer: "OurProperty",
+							from: "January 2022",
+							to: "Present",
+							tenure: "6m",
+							description: [
+								"Responsible for implementing the front-end support dashboard for administrative investigation and changes. I am responsible for the API spec and ensuring the quality of those API endpoints from the offshore development team.",
+								"Working in the support team to understand the need for tools to improve support response times and capabilities.",
+								"Working on this project as the sole developer, I am responsible for UI and UX, design and layout and implementation decisions.",
+								"Laravel with inertiajs, using laravel nova as the dashboard. Tailwind CSS and using the Tailwind UI component library.",
+							],
+						},
+						{
+							position:
+								"Business Development Manager & Web Developer",
+							employer:
+								"Broker & Dealer Finance & Insurance (BDFI)",
+							from: "February 2020",
+							to: "Present",
+							tenure: "2y4m",
+							description: [
+								"After my exposure to the challenges of working in motor trade finance, I created a custom CRM system for Dealership Business Managers and Finance Brokers.",
+								"This CRM includes lead & application management, task management and point of sale tools that dramatically improve the speed and efficiency of operations within an asset finance pipeline.",
+								"As the sole developer and sales rep for this early-stage SAAS start-up, I am responsible for both product development and customer acquisition. I've performed market research and testing with my fellow industry contacts to gather feedback and improve the product-market-fit.",
+								"The BDFI application has been built in my spare time and is a 'minimum viable product' which is in the market for testing and feedback.",
+								"The development of BDFI has been a passion project, which I've used to improve my own coding skills.",
+							],
+						},
+						{
+							position: "Freelance Web Developer",
+							employer: "SteamDiesel.dev",
+							from: "January 2018",
+							to: "Present",
+							tenure: "4y",
+							description: [
+								"I've built various projects for work and enjoyment. This resume is built as a web application, for example.",
+								"I am most proud of the memorial site I built for kingkai.org, which I built as a VueJS single page application with a Laravel API for access control, database queries and business logic.",
+								"I have found it quick and easy to spin up small javascript projects to make custom tools and toolboxes for work that are extremely powerful and flexible.",
+							],
+						},
+					],
+				},
 				{
 					career: "Sales Executive / Representative",
 					tenure: "7y",
@@ -376,40 +434,7 @@ export default {
 						},
 					],
 				},
-				{
-					career: "Full Stack Web Developer",
-					tenure: "3 years",
-					roles: [
-						{
-							position:
-								"Business Development Manager & Web Developer",
-							employer:
-								"Broker & Dealer Finance & Insurance (BDFI)",
-							from: "February 2020",
-							to: "Present",
-							tenure: "1y8m",
-							description: [
-								"After my exposure to the challenges of working in motor trade finance, I created a custom CRM system for Dealership Business Managers and Finance Brokers.",
-								"This CRM includes lead & application management, task management and point of sale tools that dramatically improve the speed and efficiency of operations within an asset finance pipeline.",
-								"As the sole developer and sales rep for this early-stage SAAS start-up, I am responsible for both product development and customer acquisition. I've performed market research and testing with my fellow industry contacts to gather feedback and improve the product-market-fit.",
-								"The BDFI application has been built in my spare time and is close to a 'minimum viable product' which I can take to market for broader testing and feedback.",
-								"The development of BDFI has been a passion project, which I've used to improve my own coding skills. So, while I have some expectation that BDFI could produce revenue, I intend to sell the project when it is established in the market.",
-							],
-						},
-						{
-							position: "Full Stack Web Developer",
-							employer: "Sole Trader",
-							from: "January 2018",
-							to: "Present",
-							tenure: "3y",
-							description: [
-								"I've built various projects for work and enjoyment. This resume is built as a web application, for example.",
-								"I am most proud of the memorial site I built for kingkai.org, which I built as a VueJS single page application with a Laravel API for access control, database queries and business logic.",
-								"I have found it quick and easy to spin up small javascript projects to make custom tools and toolboxes for work that are extremely powerful and flexible.",
-							],
-						},
-					],
-				},
+
 				{
 					career: "Sales & Finance - Motor Trade",
 					tenure: "8 years",
